@@ -4,7 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rock-paper-scissorts</title>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h3>Rock Paper Scissors</h3>
+      <p id="sub-text"># score 5 points to win!</p>
+
+      <div id="game-log">
+        <div>
+          <span>You</span>
+          <span>[<span id="human-score">0</span>] :</span>
+          <span id="human-choice"></span>
+        </div>
+
+        <div>
+          <span>Bot</span>
+          <span>[<span id="computer-score">0</span>] :</span>
+          <span id="computer-choice"></span>
+        </div>
+
+        <div id="game-round-status"></div>
+        <div id="final-status"></div>
+      </div>
+
+      <fieldset id="make-a-choice">
+        <legend>Make a choice</legend>
+        <button class="choice" name="rock" type="submit">rock</button>
+        <button class="choice" name="paper" type="submit">paper</button>
+        <button class="choice" name="scissors" type="submit">scissors</button>
+
+        <button class="replay" name="replay" hidden>replay</button>
+      </fieldset>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,36 @@
+body {
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 400px;
+  max-width: 400px;
+  margin-top: 150px;
+  border-left: 3px solid rgb(63, 89, 217);
+  padding-left: 10px;
+}
+
+#make-a-choice {
+  margin-top: 30px;
+}
+
+#game-round-status {
+  margin: 10px 0px;
+  height: 30px;
+}
+
+#final-status {
+  height: 30px;
+}
+
+#sub-text {
+  font-weight: bold;
+  margin-top: -15px;
+  color: grey;
+}
+
+#game-log {
+  margin-top: 50px;
+}
